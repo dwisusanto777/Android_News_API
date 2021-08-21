@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/business"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Business" />
+        <TextView
+            android:id="@+id/entertainment"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entertainment" />
+        <TextView
+            android:id="@+id/health"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health" />
+        <TextView
+            android:id="@+id/science"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science" />
+        <TextView
+            android:id="@+id/sport"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sport" />
+        <TextView
+            android:id="@+id/technology"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technology" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
